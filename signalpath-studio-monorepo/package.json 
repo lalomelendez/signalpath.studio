@@ -1,0 +1,10 @@
+{
+  "name": "signalpath-studio-monorepo",
+  "private": true,
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:cms": "pnpm --filter cms develop",
+    "build:web": "pnpm --filter web build",
+    "build:cms": "pnpm --filter cms build"
+  }
+}
