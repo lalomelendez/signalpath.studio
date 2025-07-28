@@ -1,0 +1,6 @@
+# Initialize Git with DEFAULT BRANCH = main (no master!)
+git init -b main
+
+# Create essential files (skip if using Node.js template)
+echo "# My Project" > README.md
+touch .gitignore
